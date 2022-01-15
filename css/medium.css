@@ -1,0 +1,17 @@
+@media only screen and (max-width: 490px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    header {
+        display: inline-block;
+    }
+
+    body {
+        margin: 2em
+    }
+
+    footer {
+        font-size: .8em;
+    }
+}
