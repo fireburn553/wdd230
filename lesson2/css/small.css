@@ -33,7 +33,7 @@ main{
 /*section rules*/
 
 section {
-    background-color: #35a7ad;
+    background-color: #FFC857;
     border-radius: 10px 10px 5px 5px;
     margin: 2%;
 }
@@ -49,18 +49,18 @@ section h2{
 
 section h3, section div{
     text-align: center;
-    color: white;
+    color: #1F2041;
     margin: 0;
 }
 
 section p {
     margin: 2%;
-    color: white;
+    color: #1F2041;
 }
 
 section div a{
     text-decoration: none;
-    color: white;
+    color: #1F2041;
     font-family: 'Raleway', sans-serif;
 }
 
