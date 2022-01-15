@@ -1,0 +1,23 @@
+@media only screen and (min-width: 560px){
+    main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+    main section:nth-child(2) {
+		display: block;
+	}
+
+    main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+    main section figure {
+		display: block;
+	}
+	main section figure img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+
+}
