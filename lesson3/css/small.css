@@ -18,7 +18,6 @@ body {
 header, footer {
     padding: 0.5rem 2%;
     background-color: #3AAFB9;
-    color: white;
 }
 
 header img {  display: block; margin-left: auto; margin-right: auto; width: 75px;}
