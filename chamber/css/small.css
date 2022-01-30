@@ -145,3 +145,6 @@ footer a {
     text-decoration: none;
     color: black;
 }
+footer div{
+    margin: 10px;
+}
