@@ -1,0 +1,147 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/*Heading Typography*/
+h1, h2, h3, h4{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/*BODY*/
+body {
+    font-size:  16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem;
+}
+
+/*HEADER*/
+header{
+    padding: 0.5rem 2%;
+
+}
+
+header img{
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+/*Header Current Date*/
+
+header div {
+    margin: auto;
+    width: 100%;
+    background-color:#64E9EE;
+    padding: 10px;
+    text-align: center;
+    clear: left;
+}
+
+/*Header NAVIGATION*/
+
+header nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+header nav {
+    background-color: #093A3E;
+    text-align: center;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,.5);
+}
+
+header nav ul li.active a {
+    background-color: #64E9EE;
+    color: black;
+}
+header nav ul li a:hover {
+    background-color: #97C8EB;
+    color: #093A3E;
+}
+
+/*HAMBURGER MENU BUTTON*/
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/*MAIN*/
+
+main{
+    display: grid;
+    grid: repeat(7, 1fr)/ 1fr;
+    grid-row-gap: 10px;
+    padding: 1em 0em;
+    margin: auto 1rem;
+    font-size: 1em;
+}
+
+main section {
+    background-color: #97C8EB;
+}
+
+main .joinSection{
+    display: none;
+}
+
+/*FOOTER*/
+footer{
+    
+    background-color: #3AAFB9;
+    text-align: center;
+}
+
+footer img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+footer h2{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+footer p{
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+footer a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
