@@ -99,7 +99,10 @@ nav ul.open {display: block;}
 /*MAIN*/
 
 div#message {
-    background-color: yellow;
+    margin: 10px;
+    background-color: #97C8EB;
+    border-top: 5px solid #093A3E;
+    border-bottom: 5px solid #093A3E;
 }
 
 div.showme{

@@ -19,7 +19,7 @@ x.onclick = toggleMenu;
 const dayNumber =  d.getDay();
 
 const element = document.getElementById("message");
-if (dayNumber == 5 || dayNumber == 6){
+if (dayNumber == 1 || dayNumber == 2){
     element.classList.add("showme");
 } else {
     element.classList.add("hideme");
