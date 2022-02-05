@@ -98,9 +98,21 @@ nav ul.open {display: block;}
 
 /*MAIN*/
 
+div#message {
+    background-color: yellow;
+}
+
+div.showme{
+    display: block;
+}
+
+div.hideme{
+    display: none;
+}
+
 main{
     display: grid;
-    grid: repeat(7, 1fr)/ 1fr;
+    grid: repeat(7, 1fr);
     grid-row-gap: 10px;
     padding: 1em 0em;
     margin: auto 1rem;
@@ -109,12 +121,64 @@ main{
 
 main section {
     background-color: #97C8EB;
+    text-align: center;
 }
 
 main .joinSection{
     display: none;
 }
 
+main section figure#pinyasan img{
+    width: 100px;
+}
+
+main section figure#daetBanner{
+    padding: 0;
+    margin: 0;
+}
+
+main section figure#daetBanner img{
+    width: 100%;
+}
+
+#hero-section{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 80%;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    box-shadow: 5px 5px #093A3E;
+}
+
+.btn{
+    background-color: #64E9EE;
+    border-radius: 10px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+main section:nth-of-type(1){
+    position: relative;
+} /*Hero Call to action*/
+
+main section figure#daet-weather img{
+    width: 100%;
+}
+
+main section figure#spotlight1 img{
+    width: 40%;
+}
+
+hr{
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    border: none;
+}
+
+main section a{
+    text-decoration: none;
+}
 /*FOOTER*/
 footer{
     

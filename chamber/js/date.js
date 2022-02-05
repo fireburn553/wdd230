@@ -15,3 +15,12 @@ function toggleMenu(){
 
 const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
+
+const dayNumber =  d.getDay();
+
+const element = document.getElementById("message");
+if (dayNumber == 5 || dayNumber == 6){
+    element.classList.add("showme");
+} else {
+    element.classList.add("hideme");
+}
