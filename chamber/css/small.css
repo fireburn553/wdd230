@@ -184,6 +184,27 @@ hr{
 main section a{
     text-decoration: none;
 }
+
+main picture.heroImage img{
+    width: 100%;
+}
+
+main section figure.wind-icon{
+    max-width: 100px;
+    margin: auto;
+}
+
+main section p span#temp, span#speed{
+    font-size: 2rem;
+}
+
+main section p#chill{
+    font-size: 1.5rem;
+}
+
+main section.weather p{
+    margin:0;
+}
 /*FOOTER*/
 footer{
     
