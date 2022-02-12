@@ -114,8 +114,7 @@ div.hideme{
 }
 
 main{
-    display: grid;
-    grid-row-gap: 10px;
+
     padding: 1em 0em;
     margin: auto 1rem;
     font-size: 1em;
@@ -165,6 +164,10 @@ main section:nth-of-type(1){
 
 main section figure#daet-weather img{
     width: 100%;
+}
+
+main section figure#spotlight2{
+    margin: 0;
 }
 
 main section figure#spotlight1 img{
