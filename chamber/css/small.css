@@ -170,6 +170,10 @@ main section figure#spotlight2{
     margin: 0;
 }
 
+main section figure#spotlight2 img{
+    width: 100%;
+}
+
 main section figure#spotlight1 img{
     width: 40%;
 }
