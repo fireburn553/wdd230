@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>W07 👷‍♀️ Activity: Progressive Loading of Images</title>
+    <meta name="description" content="W07 👷‍♀️ Activity: Progressive Loading of Images">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>
+            Progressive Loading (Images)
+        </h1>
+        <picture><img src="images/placeholder.png" data-src="https://picsum.photos/300/400" alt="Image 1 For Progressive Loading"></picture>
+        <picture><img src="images/placeholder.png" data-src="https://loremflickr.com/300/400" alt="Image 2 For Progressive Loading"></picture>
+        <picture><img src="images/placeholder.png" data-src="//placeimg.com/300/400/architecture" alt="Image 3 For Progressive Loading"></picture>
+        <picture><img src="images/placeholder.png" data-src="https://picsum.photos/300/400?grayscale" alt="Image 4 For Progressive Loading"></picture>
+        <picture><img src="images/placeholder.png" data-src="https://placebeard.it/300/400" alt="Image 5 For Progressive Loading"></picture>
+        <picture><img src="images/placeholder.png" data-src="https://unsplash.it/300/400"" alt="Image 6 For Progressive Loading"></picture>
+    </main>
+    <footer>
+        <div>
+            &copy;
+            <span id="currentYear"></span>
+        /|\ James Charlie Salva /|\ Philippines
+        </div>
+        <span id="pageLastUpdated"></span>
+    </footer>
+    <script src="js/lazy-loading.js"></script>
+</body>
+</html>
