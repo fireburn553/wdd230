@@ -4,7 +4,7 @@
         display:block;
     }
     
-    main{
+    main.home{
         display: grid;
         grid-row-gap: 10px;
         grid-template-rows: auto;
@@ -97,4 +97,43 @@
     footer hr{
         display: none;
     }
+
+    /*DISCOVERY*/
+
+    body main.main_discovery{
+        display: block;
+    }
+
+    main section.discover_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    main section.discover_1 div{
+        margin: auto;
+        padding-right: 2rem;
+    }
+
+    main section.discover_1 picture.position_left{
+        grid-column: 1/2;
+    }
+
+    main section.discover_1 picture.position_right{
+        grid-column: 2/3;
+    }
+
+    main section.discover_1 div.position_left{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    main section.discover_1 div.position_right{
+        grid-column: 2/3;
+    }
+
+    main section.discover_1 picture img:hover{
+        box-shadow: 0 0 50px #333;
+    }
+
 }

@@ -241,3 +241,19 @@ footer a {
 footer div{
     margin: 10px;
 }
+
+
+/*DISCOVERY*/
+main section.discover_1 picture img{
+    margin-top: 10px;
+    filter: blur(0em);
+    transition: filter 0.2s;
+}
+
+main section.discover_1 p{
+    padding: 0 10px 10px 10px;
+}
+
+main section.discover_1 picture img[data-src] {
+    filter: blur(0.2em);
+}
