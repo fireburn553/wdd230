@@ -136,4 +136,8 @@
         box-shadow: 0 0 50px #333;
     }
 
+    main section.discover_1 picture img{
+        width: 80%;
+    }
+
 }

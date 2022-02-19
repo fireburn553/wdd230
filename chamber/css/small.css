@@ -247,7 +247,7 @@ footer div{
 main section.discover_1 picture img{
     margin-top: 10px;
     filter: blur(0em);
-    transition: filter 0.2s;
+    width: 100%;
 }
 
 main section.discover_1 p{
