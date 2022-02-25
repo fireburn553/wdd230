@@ -27,7 +27,7 @@ thead tr:first-child th{
 
 thead tr:nth-child(2) th{
     background-color: #18A999;
-    color: white;
+    color: black;
 }
 
 tbody tr:nth-child(odd) td{
@@ -41,7 +41,7 @@ tbody tr:nth-child(even) td{
 
 tbody tr:nth-child(4) td:nth-child(3){
     background-color: #18A999;
-    color: white;
+    color: black;
 }
 
 tfoot{
