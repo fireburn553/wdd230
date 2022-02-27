@@ -280,6 +280,10 @@ form label.top input:required:valid {
     color: gray;
 }
 
+form fieldset label span{
+    font-size: .7rem;
+}
+
 
 /*FOOTER*/
 footer{
