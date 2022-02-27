@@ -47,3 +47,12 @@ if (lv !== 0){
     console.log(`this is your first visit`);
     visitDisplay.textContent = `Welcome to the page! We hope that you enjoy visiting the page.`;
 }
+
+
+document.getElementById("date").value = d.toDateString();
+
+const hours = d.getHours();
+const mins = d.getMinutes();
+const seconds = d.getSeconds();
+
+document.getElementById("time").value = hours + ":" + mins + ":" + seconds;

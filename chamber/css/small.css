@@ -209,6 +209,78 @@ main section p#chill{
 main section.weather p{
     margin:0;
 }
+
+main.join h2{
+    text-align: center;
+}
+
+main.join section form{
+    text-align: left;
+}
+
+main.join section form fieldset{
+    margin: 2rem 10px;
+    border: 1px solid #093A3E;
+    border-radius: 10px;
+    padding: 1rem 2%;
+}
+
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: .5rem .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .9rem;
+}
+
+form label.top input, form label.top select, textarea{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #093a3e;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+::placeholder{
+    color: gray;
+}
+
+
 /*FOOTER*/
 footer{
     
