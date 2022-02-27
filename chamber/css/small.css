@@ -284,6 +284,15 @@ form fieldset label span{
     font-size: .7rem;
 }
 
+main.join section.membershipLvl h3{
+    margin-bottom: 0px;
+}
+
+main.join section.membershipLvl p{
+    margin: 0 1rem .5rem 1rem;
+    padding-bottom: .5rem;
+}
+
 
 /*FOOTER*/
 footer{
