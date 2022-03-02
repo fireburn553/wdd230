@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header, footer{
+    background-color:#80808052;
+    padding: 10px;
+}
+
+section{
+    border: 2px solid #093A3E;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 5px;
+    margin:10px auto;
+    background-color:#52525285;
+}
+
+main{
+    margin: auto;
+}
+
+main div{
+    width: 90%;
+    margin: 10px auto;
+}
+
+main div section img{
+    width: 90%;
+}
+
+main div section p{
+    margin: 0;
+}
+
+main div section:hover{
+    box-shadow: 0 0 50px rgb(89, 90, 105);
+}
+
+@media only screen and (min-width: 600px) {
+    
+    main div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    main div.cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-size: .9rem;
+    }
+}
