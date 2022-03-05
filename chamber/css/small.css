@@ -362,11 +362,11 @@ main.directory div#grid.grid{display: block;}
 main.directory div#list{display: block;}
 main.directory div#list.list{display: none;}
 
-main.directory button#displayGridList span:nth-child(1) {display: none;}
-main.directory button#displayGridList span:nth-child(2) {display: block;}
+main.directory button#displayGridList span:nth-child(1) {display: block;}
+main.directory button#displayGridList span:nth-child(2) {display: none;}
 
-main.directory button#displayGridList.open span:nth-child(1) {display: block;}
-main.directory button#displayGridList.open span:nth-child(2) {display: none;}
+main.directory button#displayGridList.open span:nth-child(1) {display: none;}
+main.directory button#displayGridList.open span:nth-child(2) {display: block;}
 
 main.directory div#grid section{
     border: 1px solid #093A3E;
