@@ -85,4 +85,59 @@
         height: 50%;
     }
 
+    main.directory div#list table tbody tr td{
+        display: table-cell;
+        padding: 10px;
+        width: calc(100%/4);
+    }
+
+    main.directory div#grid.grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main.directory div#grid.grid section:nth-child(3){
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    main.directory div#grid.grid section:nth-child(4){
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    main.directory div#grid.grid section:nth-child(5){
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    main.directory div#grid.grid section:nth-child(6){
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    main.directory div#grid.grid section:nth-child(7){
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    main.directory div#grid.grid section:nth-child(8){
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    main.directory div#grid.grid section:nth-child(9){
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    main.directory div#grid.grid section:nth-child(10){
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    main.directory div#grid.grid section:nth-child(11){
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    main.directory div#grid.grid section:nth-child(12){
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    main.directory div#grid.grid section, main.directory div#grid.grid section a{
+        font-size: 1rem;
+    }
+
  }

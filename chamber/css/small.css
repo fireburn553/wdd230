@@ -342,3 +342,99 @@ main section.discover_1 p{
 main section.discover_1 picture img[data-src] {
     filter: blur(0.2em);
 }
+
+/*DIRECTORY*/
+
+main.directory button#displayGridList{
+    border: none;
+    background-color: #093a3e;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 100%;
+    max-width: 10rem;
+}
+
+main.directory div#grid{display: none;}
+main.directory div#grid.grid{display: block;}
+
+main.directory div#list{display: block;}
+main.directory div#list.list{display: none;}
+
+main.directory button#displayGridList span:nth-child(1) {display: none;}
+main.directory button#displayGridList span:nth-child(2) {display: block;}
+
+main.directory button#displayGridList.open span:nth-child(1) {display: block;}
+main.directory button#displayGridList.open span:nth-child(2) {display: none;}
+
+main.directory div#grid section{
+    border: 1px solid #093A3E;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+main.directory div#grid section img{
+    max-width: 20em;
+    width: 80%;
+}
+
+main.directory div#grid section h2{
+    margin: 10px 0 0 0;
+}
+
+main.directory div#grid section p{
+    margin: 0;
+}
+
+main.directory div#list{
+    width: 100%;
+}
+
+main.directory div#list table {
+    margin: 10px auto;
+    border: thin solid #484349;
+    box-shadow: 0 0 50px rgb(89, 90, 105);
+    width: 100%;
+}
+
+main.directory div#list table tbody tr td{
+    display: flex;
+    width: 100%;
+    padding-left: 2rem;
+    margin: auto;
+}
+
+main.directory div#list table tbody tr td:nth-child(1){
+    font-size: 1.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+    padding-top: 10px;
+}
+main.directory div#list table tbody tr td a{
+    text-decoration: none;
+    color: black;
+}
+
+main.directory div#list table tbody tr td a:hover{
+    background-color: #64E9EE;
+    color: #093A3E;
+}
+
+main.directory div#list table:hover{
+    box-shadow: 8px 10px 10px #484349;
+}
+
+main.directory div#grid section:hover{
+    box-shadow: 0 0 50px rgb(89, 90, 105);
+}
+
+main.directory div#list table:nth-child(even){
+    background-color: #97C8EB;
+}
+
+main.directory div#grid section a:hover{
+    background-color: #64E9EE;
+    color: #093A3E;
+}
+

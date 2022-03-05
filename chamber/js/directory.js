@@ -29,7 +29,8 @@ function displayList(directory) {
   let businessName = document.createElement('td');
   let address = document.createElement('td');
   let phone = document.createElement('td');
-  let website = document.createElement('td');
+  let website = document.createElement('a');
+  let websiteContainer = document.createElement('td')
 
   businessName.textContent = `${directory.name}`;
   address.textContent = `${directory.addresses}`;
@@ -40,7 +41,8 @@ function displayList(directory) {
   tableRow.appendChild(businessName);
   tableRow.appendChild(address);
   tableRow.appendChild(phone);
-  tableRow.appendChild(website);
+  websiteContainer.appendChild(website);
+  tableRow.appendChild(websiteContainer);
 
   tableBody.appendChild(tableRow);
   table.appendChild(tableBody);

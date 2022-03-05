@@ -140,4 +140,76 @@
         width: 80%;
     }
 
+    
+
+    main.directory div#list table tbody tr td{
+        padding-left: 5rem;
+    }
+
+    main.directory div#grid.grid section{
+        width: 90%;
+        font-size: .9rem;
+    }
+
+    main.directory div#grid.grid section a{
+        font-size: .8rem;
+    }
+
+    main.directory div#grid.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+
+
+    main.directory div#grid.grid section:nth-child(1){
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    main.directory div#grid.grid section:nth-child(2){
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    main.directory div#grid.grid section:nth-child(3){
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    main.directory div#grid.grid section:nth-child(4){
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    main.directory div#grid.grid section:nth-child(5){
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    main.directory div#grid.grid section:nth-child(6){
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    main.directory div#grid.grid section:nth-child(7){
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    main.directory div#grid.grid section:nth-child(8){
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    main.directory div#grid.grid section:nth-child(9){
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    main.directory div#grid.grid section:nth-child(10){
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    main.directory div#grid.grid section:nth-child(11){
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    main.directory div#grid.grid section:nth-child(12){
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
 }
