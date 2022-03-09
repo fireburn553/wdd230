@@ -376,8 +376,9 @@ main.directory div#grid section{
 }
 
 main.directory div#grid section img{
-    max-width: 20em;
+    max-width: 200px;
     width: 80%;
+    padding-top: 10px;
 }
 
 main.directory div#grid section h2{
