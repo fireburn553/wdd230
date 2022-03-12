@@ -194,8 +194,12 @@ main picture.heroImage img{
 }
 
 main section figure.wind-icon{
-    max-width: 100px;
+    max-width: 150px;
     margin: auto;
+}
+
+main section figure.wind-icon img#weather-icon{
+    width: 100%;
 }
 
 main section p span#temp, span#speed{
