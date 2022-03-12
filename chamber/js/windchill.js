@@ -5,7 +5,6 @@ const weatherAPIurl = `https://api.openweathermap.org/data/2.5/weather?q=Daet&un
 fetch(weatherAPIurl)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
         
         //Current Temperature
         let currentTemp = jsObject.main.temp.toFixed(1)
@@ -13,10 +12,8 @@ fetch(weatherAPIurl)
 
         //Weather Icon
         const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-
         document.querySelector('#weather-icon').setAttribute('src', iconsrc);
         
-
         //Weather Description
         let desc = jsObject.weather[0].description;
         desc = desc.split(' ').map(capitalize).join(' ');
@@ -41,6 +38,7 @@ fetch(weatherAPIurl)
 function capitalize(word) {
     return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
 }
+
 function computerWindChill(tempNumber, speedNumber){
     let windChill = Math.round(35.74 + (0.6215*tempNumber) - (35.75*Math.pow(speedNumber, 0.16)) + (0.4275*tempNumber*Math.pow(speedNumber, 0.16)));
 
