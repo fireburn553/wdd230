@@ -11,7 +11,7 @@ fetch(weatherAPIurl)
         document.querySelector('#temp').textContent = `${currentTemp} \xB0F`;
 
         //Weather Icon
-        const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+        const iconsrc = `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
         document.querySelector('#weather-icon').setAttribute('src', iconsrc);
         
         //Weather Description
