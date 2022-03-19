@@ -181,12 +181,14 @@ main section figure#spotlight2{
     margin: 0;
 }
 
-main section figure#spotlight2 img{
-    width: 40%;
+main section figure#spotlight2 img#spot2Img{
+    width: 80%;
+    max-width: 150px;
 }
 
-main section figure#spotlight1 img{
-    width: 40%;
+main section figure#spotlight1 img#spot1Img{
+    width: 80%;
+    max-width: 150px;
 }
 
 main section.event h2, .event h3, .event p, .event h4{
