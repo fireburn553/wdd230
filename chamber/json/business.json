@@ -2,7 +2,7 @@
     "directory": [
         {
             "name": "Jolibee",
-            "addresses": "Daet Camarines Norte",
+            "addresses": "F. Pimentel St, Daet Camarines Norte",
             "phone": "+639123456789",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/jollibee_2011.webp",
@@ -10,88 +10,88 @@
         },
         {
             "name": "SM City Daet",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "Gahonon, Daet Camarines Norte",
+            "phone": "+639987654321",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/smDaetCiry.webp",
             "category": "Gold"
         },
         {
             "name": "LBC",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "J. Lukban St., Daet Camarines Norte",
+            "phone": "+6391599511575",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/lbcExpress.webp",
             "category": "Gold"
         },
         {
             "name": "Motortrade",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "Bagasbas Rd., Daet Camarines Norte",
+            "phone": "+63985236741",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/motortrade.webp",
             "category": "Silver"
         },
         {
             "name": "Shell",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "Agham Rd., Daet Camarines Norte",
+            "phone": "+63932147896",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/Shell.webp",
             "category": "Silver"
         },
         {
             "name": "Cafe Morga",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "Morga St., Daet Camarines Norte",
+            "phone": "+6397894456123",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/cafemorga.webp",
             "category": "Silver"
         },
         {
             "name": "Meat Land",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "Public Market, Daet Camarines Norte",
+            "phone": "+6398756432123",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/meatland.webp",
             "category": "Bronze"
         },
         {
             "name": "ACLC",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "addresses": "ACLC Building, Daet Camarines Norte",
+            "phone": "+6398794321657",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/aclc.webp",
             "category": "Bronze"
         },
         {
-            "name": "Business9",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "name": "Company",
+            "addresses": "Dimasalang St., Daet Camarines Norte",
+            "phone": "+639855471132",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/comapanyLogo.webp",
             "category": "Bronze"
         },
         {
-            "name": "Business10",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "name": "Deal People",
+            "addresses": "My Print Building, Daet Camarines Norte",
+            "phone": "+639123486789",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/dealPeople.webp",
             "category": "Free"
         },
         {
-            "name": "Business11",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "name": "Your Logo Business",
+            "addresses": "PhotoGrace St., Daet Camarines Norte",
+            "phone": "+639123456749",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/yourLogo.webp",
             "category": "Free"
         },
         {
-            "name": "Business12",
-            "addresses": "Daet Camarines Norte",
-            "phone": "+639123456789",
+            "name": "Talk Business Networking",
+            "addresses": "Peñafrancia St., Daet Camarines Norte",
+            "phone": "+639122656789",
             "website": "https://fireburn553.github.io/wdd230/",
             "image": "https://fireburn553.github.io/wdd230/chamber/images/talkBusiness.webp",
             "category": "Free"
