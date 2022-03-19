@@ -5,14 +5,12 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
     const directory = jsonObject['directory'];
     directory.forEach(displayGrid);
     directory.forEach(displayList);
   });
 
 function toggleDisplay(){
-  console.log('I clicked the button!!!!')
   document.getElementById("grid").classList.toggle("grid");
   document.getElementById("list").classList.toggle("list");
   document.getElementById("displayGridList").classList.toggle("open");
@@ -22,7 +20,6 @@ const displayBtn= document.getElementById('displayGridList');
 displayBtn.onclick = toggleDisplay;
 
 function displayList(directory) {
-  console.log("Draw List")
   let table = document.createElement('table');
   let tableBody = document.createElement('tbody');
   let tableRow = document.createElement('tr');
@@ -52,7 +49,6 @@ function displayList(directory) {
 
 
 function displayGrid(directory) {  // Create elements to add to the document
-    console.log("Draw Grid")
     let card = document.createElement('section');
     let businessName = document.createElement('h2');
     let address = document.createElement('p');
