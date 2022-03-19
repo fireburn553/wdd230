@@ -364,6 +364,7 @@ main section.discover_1 picture img[data-src] {
 
 main.main_discovery section picture img{
     margin: 10px;
+    width: 80%;
 }
 
 
