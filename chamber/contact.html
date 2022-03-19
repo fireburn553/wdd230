@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Daeteños Chamber of Commerce</title>
+    <meta name="description" content="Daeteños Chamber of Commerce Home Portal">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        <a href="index.html">
+            <img src="images/logo.webp" alt="Daeteños Chamber of Commerce Logo">
+        </a>
+        <h1>Daeteños Chamber of Commerce</h1>
+        <h2>Building Stronger Community of Businesses</h2>
+        <div id="currentDate"></div>
+        <div id="lastVisit"></div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="discover.html">DISCOVER</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="join.html">JOIN</a></li>
+                <li><a href="directory.html">DIRECTORY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <section class="contact-information">
+            <h2>Contact Us</h2>
+            <h3>Daeteños Chamber of Commerce</h3>
+            <hr>
+            <h4>Address:</h4>
+            <p>
+                Magang, Daet, Camarines Norte 4600 <br/>
+                +631234567890
+            </p>
+            <hr>
+            <h4>Office Hours:</h4>
+            <p>Monday to Friday<br/>
+                9:00am to 6:00pm
+            </p>
+            <hr>
+            <h4>Point of Contact:</h4>
+
+            <p><b>Emyrose Logan</b><br/>
+            <em>Public Relation Officer</em> <br/>
+            +639123853411
+            </p>
+
+            <p><b>Nikko Mago</b><br/>
+            <em>Operation Manager</em> <br/>
+            +639123853456
+            </p>
+
+            <p><b>Kimberly Sarsa</b><br/>
+            <em>Board Committee on Public Relation</em> <br/>
+            +639123853896
+            </p>
+        </section>
+        
+        <section id="formSection">
+            <p>You can send us message by filling up this form below:</p>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>General Inquiries</legend>
+                    <label class="top">Name*<input type="text" name="name" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label class="top">Phone<input type="tel" name="phone" placeholder="+63123456789"></label>
+                    <label class="top">Questions/Concerns/Comments
+                            <textarea
+                        name="businessDesc" 
+                        cols="40" 
+                        rows="5" 
+                        minlength="50" 
+                        maxlength="500" 
+                        placeholder="Enter text here (maximum 500 characters)"></textarea>
+                    </label>
+                <input type="submit" value="Send Message" class="submitBtn">
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <img src="images/logo.webp" alt="Daeteños Chamber of Commerce Logo">
+        <h2>Daeteños Chamber of Commerce</h2>
+        <p>Magang, Daet, Camarines Norte 4600</p>
+        <a href="mailto:dcc@email.com">&#9993; dcc@email.com</a>
+        <a href="tel:+639123456789">&#9742; +639123456789</a>
+        <a href="https://www.google.com/maps/place/Daet,+Camarines+Norte/@14.1093943,122.905597,13z/data=!3m1!4b1!4m5!3m4!1s0x3398ae57889668c7:0xb348444a6a1fc08a!8m2!3d14.099578!4d122.9550349" target="_blank">&#10148; Location to Map</a>
+        <hr>
+        <div>
+            &copy;
+            <span id="currentYear"></span>
+            &#10070; James Charlie Salva &#10070; Philippines &#10070;
+            <span id="pageLastUpdated"></span>
+        </div>
+    </footer>
+    <script src="js/date.js"></script>
+</body>
+</html>

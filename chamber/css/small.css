@@ -466,3 +466,26 @@ main.directory div#grid section a:hover{
     color: #093A3E;
 }
 
+/* CONTACT US */
+
+main.contact section form{
+    text-align: left;
+}
+
+main.contact section form fieldset{
+    margin: 2rem 10px;
+    border: 1px solid #093A3E;
+    border-radius: 10px;
+    padding: 1rem 2%;
+}
+
+main.contact form input.submitBtn{
+    border: none;
+    background-color: #093a3e;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 10px 0 2rem 2%;
+    width: 80%;
+    max-width: 20rem;
+}
