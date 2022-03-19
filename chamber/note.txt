@@ -1,9 +1,0 @@
-HEADER AND FOOTER PART
-__ Make date on the better position
-__ Insert Facebook and Instagram Icon
-JOIN.BODY
-__ Add some icons for membership level and design
-CONTACT.BODY
-__ Create contact information page and details
-
-
