@@ -27,24 +27,24 @@ if (dayNumber == 1 || dayNumber == 2){
 
 
 const visitDisplay = document.querySelector("#lastVisit");
-console.log(visitDisplay)
+// console.log(visitDisplay)
 const lv = Number(localStorage.getItem("visits-ls"));
-console.log(`last visit: ${lv}`);
+// console.log(`last visit: ${lv}`);
 const today = Date.now();
-console.log(`today is: ${today}`);
+// console.log(`today is: ${today}`);
 
 const msInDay = 1000 * 60 * 60 * 24;
-console.log(`milliseconds in a day is ${msInDay}`);
+// console.log(`milliseconds in a day is ${msInDay}`);
 
 let difference = Math.round((today - lv)/msInDay);
 
 localStorage.setItem("visits-ls", today);
 
 if (lv !== 0){
-    console.log(`Hey it's been ${difference} day since your last visit`);
+    // console.log(`Hey it's been ${difference} day since your last visit`);
     visitDisplay.textContent = `Hey it's been ${difference} day since your last visit.`;
 } else {
-    console.log(`this is your first visit`);
+    // console.log(`this is your first visit`);
     visitDisplay.textContent = `Welcome to the page! We hope that you enjoy visiting the page.`;
 }
 
