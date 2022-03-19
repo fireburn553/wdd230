@@ -1,24 +1,8 @@
-OVERALL
-__ Make border every section/ div rounded and with border-color that will satisfy the feeling. Refer to the come and meet us every Thursday for design 
 HEADER AND FOOTER PART
-__ Make sure that the header and footer is align (Small, Medium and Large View)
 __ Make date on the better position
 __ Insert Facebook and Instagram Icon
-INDEX.BODY
-__ Make a width that will look appealing to the eyes, not too big and not to small (small, medium and large view)
-•	Every section must have a small width and height
-•	Choose picture or hero image that are fitted
-•	Make sure that the hero section with button will not overlap with other section (small view)
-•	Text spacing, font and uppercase
-DISCOVER.BODY
-__ Make a width that will look appealing to the eyes, not too big and not to small (Large View)
-
 JOIN.BODY
 __ Add some icons for membership level and design
-DIRECTORY.BODY
-__ width of the body must not exceed to the width of header and footer
-__ width of every grid section in the grid view 
-
 CONTACT.BODY
 __ Create contact information page and details
 
