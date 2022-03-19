@@ -442,6 +442,7 @@ main.directory div#list table tbody tr td:nth-child(1){
 main.directory div#list table tbody tr td a{
     text-decoration: none;
     color: black;
+    margin-bottom: 10px;
 }
 
 main.directory div#list table tbody tr td a:hover{
@@ -464,6 +465,10 @@ main.directory div#list table:nth-child(even){
 main.directory div#grid section a:hover{
     background-color: #64E9EE;
     color: #093A3E;
+}
+
+main.directory div#grid section a{
+    margin-bottom: 10px;
 }
 
 /* CONTACT US */
