@@ -14,7 +14,7 @@
 
     main{
         grid-template-rows: auto;
-        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-columns:1fr max-content 1fr;
     }
 
     main section:nth-of-type(1){
@@ -52,6 +52,10 @@
         grid-column: 3/4;
     }
 
+    main section:nth-of-type(7) h3{
+        margin: 10px;
+    }
+
     main picture.heroImage{
         grid-column: 1/4;
         grid-row: 1/2;
@@ -68,8 +72,14 @@
     }
 
     main section figure#daetBanner img{
-        object-fit: contain;
+        width: 80%;
+        margin-top: 10px;
     }
+
+    #hero-section{
+        top: 30px;
+    }
+
 
     main.join{
         display: grid;
@@ -138,6 +148,11 @@
 
     main.directory div#grid.grid section, main.directory div#grid.grid section a{
         font-size: 1rem;
+    }
+
+    main.main_discovery section picture img{
+        width: 70%;
+        margin: 10px;
     }
 
  }
