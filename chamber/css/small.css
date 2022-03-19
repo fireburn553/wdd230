@@ -173,7 +173,7 @@ main section:nth-of-type(1){
     position: relative;
 } /*Hero Call to action*/
 
-main section figure#daet-weather img{
+main section.weather figure.wind-icon img{
     width: 100%;
 }
 
