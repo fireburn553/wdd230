@@ -39,9 +39,17 @@
         </nav>
     </header>
     <main class="home">
-        <section>
-            <div>
-
+        <section class="hero">
+            <div class="hero-img">
+                <picture class="heroImage">
+                    <source media="(max-width: 560px)" srcset="images/hero475.jpg">
+                    <source media="(max-width: 900px)" srcset="images/hero900.jpg">
+                    <source media="(min-width: 901px)" srcset="images/hero1100.jpg">
+                    <img src="images/hero475.jpg" alt="Hero Image">
+                </picture>
+            </div>
+            <div class="hero-btn">
+                <button>BOOK NOW!</button>
             </div>
         </section>
         <section>

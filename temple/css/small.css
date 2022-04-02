@@ -24,10 +24,6 @@
         */
   }
 
-
-
-  
-
 /* BODY */
 body{
     background-color: var(--accent1-color);
@@ -112,3 +108,17 @@ header div.social a img{
 header div.social{
     justify-self: right;
 }
+
+
+/* HOME */
+main.home section div.hero-img img{
+    width: 100%;
+}
+
+main.home section div.hero-btn {
+    display: flex;
+}
+/* photo credit */
+/* Photo by <a href="https://unsplash.com/@tonyyakovlenko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tony Yakovlenko</a> on <a href="https://unsplash.com/s/photos/hotel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+
