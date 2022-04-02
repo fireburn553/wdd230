@@ -1,0 +1,138 @@
+{
+    "directory": [
+        {
+            "name": "Cebu City Philippines Temple",
+            "addresses": "The Church of Jesus Christ of Latter-day Saints Gorordo Avenue, Barangay Lahug, Cebu City, 6000 Cebu, Philippines",
+            "phone": "(63) 32-230-1207",
+            "email": "cebucityphilippinestemple@email.com",
+            "website": "https://www.churchofjesuschrist.org/temples/details/cebu-city-philippines-temple?lang=eng",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cebu-city-philippines/800x1280/cebu-philippines-temple-lds-852643-wallpaper.jpg",
+            "services": [
+                {
+                    "clothing": "Clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "patron-house": "No patron housing available",
+                    "pbo": "Distribution center nearby"
+                }
+            ],
+            "history": [
+                {
+                    "announced": "18 April 2006",
+                    "ground-breaking": "14 November 2007",
+                    "dedicated": "13 June 2010"
+                }
+            ],
+            "temple-closure": [
+                {
+                    "year": "2022",
+                    "closure1": "Monday, 15 August 2022 - Monday, 24 October 2022",
+                    "closure2": "Saturday, 24 December 2022",
+                    "closure3": "Saturday, 31 December 2022"
+                }
+            ]
+        },
+        {
+            "name": "Manila Philippines Temple",
+            "addresses": "13 Temple Drive corner Whiteplains Avenue Greenmeadows Subdivision, UGONG NORTE, Quezon City, 1110 Metro Manila, Philippines",
+            "phone": "(63) 2-8635-9111",
+            "email": "manilaphilippinestemple@email.com",
+            "website": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manila-philippines/1280x800/manila-philippines-temple-lds-993617-wallpaper.jpg",
+            "services": [
+                {
+                    "clothing": "Clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "patron-house": "No patron housing available",
+                    "pbo": "Distribution center nearby"
+                }
+            ],
+            "history": [
+                {
+                    "announced": "1 April 1981",
+                    "ground-breaking": "25 August 1982",
+                    "dedicated": "25 September 1984"
+                }
+            ],
+            "temple-closure": [
+                {
+                    "year": "2022",
+                    "closure1": "Saturday, 9 April 2022",
+                    "closure2": "Monday, 1 August 2022 - Monday, 15 August 2022",
+                    "closure3": "Saturday, 8 October 2022",
+                    "closure4": "Saturday, 24 December 2022",
+                    "closure5": "Saturday, 31 December 2022"
+                }
+            ]
+        },
+        {
+            "name": "Kona Hawaii Temple",
+            "addresses": "75-230 Kalani St. Kailua-Kona, HI 96740-1833, United States",
+            "phone": "(1) 808-331-8504",
+            "email": "hawaiitemple@email.com",
+            "website": "https://www.churchofjesuschrist.org/temples/details/kona-hawaii-temple?lang=eng",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kona-hawaii/800x500/kona-hawaii-mormon-temple-941461-wallpaper.jpg",
+            "services": [
+                {
+                    "clothing": "No clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "patron-house": "No patron housing available",
+                    "pbo": "No distribution center nearby"
+                }
+            ],
+            "history": [
+                {
+                    "announced": "7 May 1998",
+                    "ground-breaking": "13 March 1999",
+                    "dedicated": "23 January 2000"
+                }
+            ],
+            "temple-closure": [
+                {
+                    "year": "2022",
+                    "closure1": "Saturday, 2 April 2022 - Monday, 30 May 2022",
+                    "closure2": "Saturday, 1 October 2022 - Monday, 17 October 2022",
+                    "closure3": "Wednesday, 23 November 2022",
+                    "closure4": "Thursday, 24 November 2022",
+                    "closure5": "Friday, 23 December 2022",
+                    "closure6": "Saturday, 24 December 2022",
+                    "closure7": "Friday, 30 December 2022",
+                    "closure8": "Saturday, 31 December 2022"
+                }
+            ]
+        },
+        {
+            "name": "Arequipa Peru Temple",
+            "addresses": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
+            "phone": "(51) 54-640-300",
+            "email": "arequipaperutemple@email.com",
+            "website": "https://www.churchofjesuschrist.org/temples/details/arequipa-peru-temple?lang=eng",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/arequipa-peru/800x500/4-48661c257177c19a0f39a3991b1a7e7aa0338487.jpeg",
+            "services": [
+                {
+                    "clothing": "No clothing rental available",
+                    "cafeteria": "No cafeteria available",
+                    "patron-house": "No patron housing available",
+                    "pbo": "Distribution center nearby"
+                }
+            ],
+            "history": [
+                {
+                    "announced": "6 October 2012",
+                    "ground-breaking": "4 March 2017",
+                    "dedicated": "15 December 2019"
+                }
+            ],
+            "temple-closure": [
+                {
+                    "year": "2022",
+                    "closure1": "Saturday, 2 April 2022",
+                    "closure2": "Thursday, 28 July 2022 - Friday, 29 July 2022",
+                    "closure3": "Monday, 1 August 2022 - Monday, 15 August 2022",
+                    "closure4": "Saturday, 1 October 2022",
+                    "closure5": "Saturday, 24 December 2022",
+                    "closure6": "Saturday, 31 December 2022"
+                }
+            ]
+        }
+    ]
+}
