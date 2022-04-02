@@ -1,4 +1,7 @@
-div {
+main{
+    display: flex;
+}
+div.card {
     width: 200px;
     height: 200px;
     background-color: #959799;
@@ -6,6 +9,36 @@ div {
     border: solid 5px #FFFFFF;
     box-shadow: 8px 10px 10px #4C4E4E;
     border-radius: 10px;
+}
+
+div.text-font{
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF ;
+    margin: 10px auto;
+    border: solid 5px  #4C4E4E;
+    box-shadow: 8px 10px 10px  #959799;
+    border-radius: 10px;
+}
+
+div.card2{
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF ;
+    margin: 10px auto;
+    border: solid 2px  #4C4E4E;
+    box-shadow: 8px 10px 10px  #959799;
+    border-radius: 5px;
+}
+
+div.card3{
+    width: 200px;
+    height: 200px;
+    background-color: #959799;
+    margin: 10px auto;
+    border: solid 2px #FFFFFF;
+    box-shadow: 8px 10px 10px #4C4E4E;
+    border-radius: 5px;
 }
 
 h1{
