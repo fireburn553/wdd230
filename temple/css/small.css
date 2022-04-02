@@ -165,7 +165,7 @@ main.home section.hero div.hero-btn button:hover, main.home section.hero div.her
 
 
 main.home section.content{
-    max-width: 250px;
+    max-width: 350px;
     margin: auto;
     background: var(--primary-color);
     padding: 1rem;
