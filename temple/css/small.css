@@ -163,14 +163,12 @@ main.home section.hero div.hero-btn button:hover, main.home section.hero div.her
     border: 3px solid var(--secondary-color);
 }
 
-
 main.home section.content{
     max-width: 350px;
     margin: auto;
     background: var(--primary-color);
     padding: 1rem;
     border: 1px solid var(--accent2-color);
-    border: none;
     box-shadow: 0 2px 5px 0 var(--tertiary-color);
 }
 
@@ -180,7 +178,7 @@ main.home section.contact div.contact-wrapper img{
     margin: auto;
 }
 
-main.home section.contact div.contact-wrapper p, main.home section.contact div.contact-wrapper h2{
+main.home section.contact div.contact-wrapper p, main.home section.contact div.contact-wrapper h2, main.home section.temple-card div.temple-card-header h3, main.home section.temple-card div.temple-card-body p{
     text-align: center;
     margin: 5px;
 }
@@ -207,11 +205,6 @@ main.home section.temple-card div.temple-card-image>img{
     object-position: center;
 }
 
-main.home section.temple-card div.temple-card-header h3, main.home section.temple-card div.temple-card-body p{
-    margin: 5px;
-    text-align: center;
-}
-
 main.home section.temple-card div.temple-card-header h3{
     border: 3px solid var(--tertiary-color);
     border-radius: 5px;
@@ -222,10 +215,7 @@ main.home section.temple-card div.temple-card-header{
     padding: 10px;
 }
 
-main.home section.temple-card div.temple-card-body p
-{
-    font-size: .9rem;
-}
 main.home section.temple-card div.temple-card-body p{
     padding-bottom: 10px;
 }
+
