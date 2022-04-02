@@ -37,7 +37,7 @@ header a img.logo{
     width: 40%;
     margin: 10px auto;
     border-radius: 25px 0 25px 0;
-    ;box-shadow: 0px 0px 5px 3px var(--accent2-color);
+    box-shadow: 0px 0px 5px 3px var(--accent2-color);
 }
 
 header nav button{
@@ -102,7 +102,6 @@ nav ul.open {display: block;}
 header div.social a img{
     width: 40px;
     margin: 1px 5px;
-    
 }
 
 header div.social{
@@ -113,12 +112,48 @@ header div.social{
 /* HOME */
 main.home section div.hero-img img{
     width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 250px;
 }
 
-main.home section div.hero-btn {
-    display: flex;
-}
 /* photo credit */
 /* Photo by <a href="https://unsplash.com/@tonyyakovlenko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tony Yakovlenko</a> on <a href="https://unsplash.com/s/photos/hotel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
+main.home section.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+main.home section.hero div.hero-img{
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+main.home section.hero div.hero-btn{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: center;
+}
+
+main.home section div.hero-btn {
+    margin: auto;
+    font-size: 2rem;
+}
+
+main.home section div.hero-btn button{
+    background: rgba(76, 78, 78, .9);
+    border: 3px solid var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main.home section div.hero-btn button:hover, main.home section div.hero-btn button:focus{
+    background: rgba(149, 151, 153, .9);
+    color: var(--tertiary-color);
+    border: 3px solid var(--secondary-color);
+}
