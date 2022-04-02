@@ -112,7 +112,7 @@ header div.social{
 
 
 /* HOME */
-main.home section div.hero-img img{
+main.home section.hero div.hero-img img{
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
@@ -135,12 +135,12 @@ main.home section.hero div.hero-btn{
     justify-content: center;
 }
 
-main.home section div.hero-btn{
+main.home section.hero div.hero-btn{
     margin: auto;
     font-size: 2rem;
 }
 
-main.home section div.hero-header{
+main.home section.hero div.hero-header{
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: center;
@@ -148,7 +148,7 @@ main.home section div.hero-header{
     
 }
 
-main.home section div.hero-btn button{
+main.home section.hero div.hero-btn button{
     background: rgba(76, 78, 78, .75);
     border: 3px solid var(--tertiary-color);
     color: var(--primary-color);
@@ -157,14 +157,17 @@ main.home section div.hero-btn button{
     font-family: 'Montserrat', sans-serif;
 }
 
-main.home section div.hero-btn button:hover, main.home section div.hero-btn button:focus{
+main.home section.hero div.hero-btn button:hover, main.home section.hero div.hero-btn button:focus{
     background: rgba(149, 151, 153, .9);
     color: var(--tertiary-color);
     border: 3px solid var(--secondary-color);
 }
 
-main.home section.contact{
-    background: white;
+
+main.home section.content{
+    max-width: 250px;
+    margin: auto;
+    background: var(--primary-color);
     padding: 1rem;
     border: 1px solid var(--accent2-color);
     border: none;
@@ -186,3 +189,33 @@ main.home section.contact div.contact-wrapper h2{
     margin-bottom: 15px;
 }
 
+main.home section.temple-card div.temple-card-image{
+    overflow: hidden;
+}
+
+main.home section.temple-card{
+    padding: 0;
+}
+
+main.home section.temple-card div.temple-card-image>img{
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+}
+
+main.home section.temple-card div.temple-card-header h3, main.home section.temple-card div.temple-card-body p{
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+main.home section.temple-card div.temple-card-body p
+{
+    font-size: .9rem;
+}
+main.home section.temple-card div.temple-card-body p:last-child{
+    padding-bottom: 10px;
+}
