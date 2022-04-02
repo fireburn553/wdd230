@@ -1,0 +1,33 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #959799;
+    margin: 10px auto;
+    border: solid 5px #FFFFFF;
+    box-shadow: 8px 10px 10px #4C4E4E;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+}
+
+p{
+    font-family: Nunito, sans-serif;
+}
+
+
+body{
+    background-color: #E9ECEF;
+}
+
+/* Color combination possible
+
+#959799 and #020100
+
+#E9ECEF and #020100	
+
+#4C4E4E and #E9ECEF
+
+#4C4E4E and #FFFFFF
+ */
