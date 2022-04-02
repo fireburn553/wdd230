@@ -30,6 +30,10 @@ body{
     font-family: 'Nunito', sans-serif;;
 }
 
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* HEADER STYLE */
 
 header a img.logo{
@@ -65,8 +69,6 @@ header nav ul{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-
-
 
 header nav ul li a {
     display: block;
@@ -112,9 +114,10 @@ header div.social{
 /* HOME */
 main.home section div.hero-img img{
     width: 100%;
+    max-height: 80%;
     aspect-ratio: 16/9;
     object-fit: cover;
-    max-height: 250px;
+    object-position: bottom;
 }
 
 /* photo credit */
@@ -138,13 +141,21 @@ main.home section.hero div.hero-btn{
     justify-content: center;
 }
 
-main.home section div.hero-btn {
+main.home section div.hero-btn{
     margin: auto;
     font-size: 2rem;
 }
 
+main.home section div.hero-header{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: .75em;
+    
+}
+
 main.home section div.hero-btn button{
-    background: rgba(76, 78, 78, .9);
+    background: rgba(76, 78, 78, .75);
     border: 3px solid var(--tertiary-color);
     color: var(--primary-color);
     border-radius: 10px;
