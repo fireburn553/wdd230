@@ -114,20 +114,14 @@ header div.social{
 /* HOME */
 main.home section div.hero-img img{
     width: 100%;
-    max-height: 80%;
     aspect-ratio: 16/9;
     object-fit: cover;
     object-position: bottom;
 }
 
-/* photo credit */
-/* Photo by <a href="https://unsplash.com/@tonyyakovlenko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tony Yakovlenko</a> on <a href="https://unsplash.com/s/photos/hotel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   */
-
 main.home section.hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 main.home section.hero div.hero-img{
@@ -150,7 +144,7 @@ main.home section div.hero-header{
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: center;
-    font-size: .75em;
+    font-size: .75rem;
     
 }
 
@@ -168,3 +162,27 @@ main.home section div.hero-btn button:hover, main.home section div.hero-btn butt
     color: var(--tertiary-color);
     border: 3px solid var(--secondary-color);
 }
+
+main.home section.contact{
+    background: white;
+    padding: 1rem;
+    border: 1px solid var(--accent2-color);
+    border: none;
+    box-shadow: 0 2px 5px 0 var(--tertiary-color);
+}
+
+main.home section.contact div.contact-wrapper img{
+    display: block;
+    width: 50px;
+    margin: auto;
+}
+
+main.home section.contact div.contact-wrapper p, main.home section.contact div.contact-wrapper h2{
+    text-align: center;
+    margin: 5px;
+}
+
+main.home section.contact div.contact-wrapper h2{
+    margin-bottom: 15px;
+}
+
