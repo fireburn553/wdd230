@@ -213,6 +213,11 @@ main.home section.temple-card div.temple-card-body p{
     padding-bottom: 10px;
 }
 
+.current-weather>img{
+    background-color: var(--accent1-color);
+    border-radius: 50px;
+}
+
 
 /* FOOTER */
 footer{
@@ -261,8 +266,6 @@ legend{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
 }
-
-
 
 form label.top input:required{
     border-left: red solid 3px;
