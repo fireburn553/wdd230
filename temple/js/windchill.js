@@ -38,9 +38,9 @@ fetch(weatherAPIurl)
         let websiteCredit = document.createElement('p');
         websiteCredit.textContent = weatherWebsite;
         currentWeatherContainer.appendChild(websiteCredit);
-
-
-        
-
-    
     });
+
+
+    function capitalize(word) {
+        return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+    }
