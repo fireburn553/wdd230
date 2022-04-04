@@ -4,8 +4,7 @@
     box-sizing: border-box;
   }
   
-  :root {
-    /* change the values below to your colors from your palette */
+:root {
     --primary-color: #E9ECEF;
     --secondary-color: #FFFFFF;
     --tertiary-color: #020100;
@@ -42,6 +41,7 @@ img.logo{
     margin: 10px auto;
     border-radius: 25px 0 25px 0;
     box-shadow: 0px 0px 5px 3px var(--accent2-color);
+    max-width: 200px;
 }
 
 header nav button{
@@ -168,6 +168,7 @@ main.home section.content{
     border: 1px solid var(--accent2-color);
     box-shadow: 0 2px 5px 0 var(--tertiary-color);
     text-align: center;
+    width: 100%;
 }
 
 main.home section.contact div.contact-wrapper img{
@@ -181,15 +182,19 @@ main.home section.contact div.contact-wrapper h2{
     margin-bottom: 15px;
 }
 
-main.home section.temple-card div.temple-card-image{
+main.home section.temple-card div.temple-card-image, .temple-card2-image{
     overflow: hidden;
 }
 
-main.home section.temple-card{
+main.home section.temple-card, main.home section.temple-card2{
     padding: 0;
 }
 
-main.home section.temple-card div.temple-card-image>img{
+.hide{
+    display: none;
+}
+
+main.home section.temple-card div.temple-card-image>img, .temple-card2-image>img{
     display: block;
     width: 100%;
     max-height: 200px;
@@ -198,13 +203,10 @@ main.home section.temple-card div.temple-card-image>img{
     object-position: center;
 }
 
-main.home section.temple-card div.temple-card-header h3{
+.temple h3{
     border: 3px solid var(--tertiary-color);
     border-radius: 5px;
     margin: 10px;
-}
-
-main.home section.temple-card div.temple-card-header{
     padding: 10px;
 }
 
@@ -254,10 +256,11 @@ form label.top input,textarea{
 }
 
 form{
-    margin-top: 1.75rem;
+    margin: 1.75rem auto;
     background-color: white;
     border-radius: 5px;
     padding: 5px;
+    max-width: 350px;
 }
 
 legend{
@@ -286,7 +289,6 @@ form label.top input:required:valid {
     text-align: center;
 }
 
-
 .footer-contact-info>p:nth-child(1){
     margin-top: 20px;
 }
@@ -300,4 +302,5 @@ form label.top input:required:valid {
 
 .footer-contact-info a img{
     width: 20%;
+    max-width: 60px;
 }
