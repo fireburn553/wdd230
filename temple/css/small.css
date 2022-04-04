@@ -126,33 +126,33 @@ main.home section.hero {
 
 main.home section.hero div.hero-img{
     grid-column: 1/4;
-    grid-row: 1/4;
+    grid-row: 1/5;
 }
 
 main.home section.hero div.hero-btn{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     justify-content: center;
 }
 
 main.home section.hero div.hero-btn{
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 main.home section.hero div.hero-header{
     grid-column: 1/4;
-    grid-row: 1/2;
+    grid-row: 2/3;
     text-align: center;
     font-size: .75rem;
     
 }
 
 main.home section.hero div.hero-btn button{
-    background: rgba(76, 78, 78, .75);
-    border: 3px solid var(--tertiary-color);
+    background: rgba(76, 78, 78,1);
+    
     color: var(--primary-color);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 2px 6px black;
     font-family: 'Montserrat', sans-serif;
 }
@@ -160,16 +160,16 @@ main.home section.hero div.hero-btn button{
 main.home section.hero div.hero-btn button:hover, main.home section.hero div.hero-btn button:focus{
     background: rgba(149, 151, 153, .9);
     color: var(--tertiary-color);
-    border: 3px solid var(--secondary-color);
 }
 
 main.home section.content{
     max-width: 350px;
-    margin: auto;
+    margin: 15px auto 0 auto;
     background: var(--primary-color);
     padding: 1rem;
     border: 1px solid var(--accent2-color);
     box-shadow: 0 2px 5px 0 var(--tertiary-color);
+    text-align: center;
 }
 
 main.home section.contact div.contact-wrapper img{
@@ -178,10 +178,6 @@ main.home section.contact div.contact-wrapper img{
     margin: auto;
 }
 
-main.home section.contact div.contact-wrapper p, main.home section.contact div.contact-wrapper h2, main.home section.temple-card div.temple-card-header h3, main.home section.temple-card div.temple-card-body p{
-    text-align: center;
-    margin: 5px;
-}
 
 main.home section.contact div.contact-wrapper h2{
     margin-bottom: 15px;
@@ -193,7 +189,6 @@ main.home section.temple-card div.temple-card-image{
 
 main.home section.temple-card{
     padding: 0;
-    margin-top: 15px;
 }
 
 main.home section.temple-card div.temple-card-image>img{
@@ -218,4 +213,3 @@ main.home section.temple-card div.temple-card-header{
 main.home section.temple-card div.temple-card-body p{
     padding-bottom: 10px;
 }
-

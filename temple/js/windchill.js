@@ -7,34 +7,46 @@ const currentWeatherContainer = document.querySelector(".current-weather");
 fetch(weatherAPIurl)
     .then((response) => response.json())
     .then((jsObject) => {
-        
+
+        let cityName = jsObject.name;
+        let name = document.createElement('h2');
+        name.textContent = cityName;
+        currentWeatherContainer.appendChild(name);
+
+         //Weather Icon
+        const iconsrc = `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
+        let iconWeather = document.createElement('img')
+        iconWeather.setAttribute('src', iconsrc);
+        currentWeatherContainer.appendChild(iconWeather);
+
+        //Weather Description
+        let desc = jsObject.weather[0].description;
+        desc = desc.split(' ').map(capitalize).join(' ');
+
+        //Figure Caption
+        let figCaption = document.createElement('p');
+        figCaption.textContent = desc;
+        currentWeatherContainer.appendChild(figCaption);
+        iconWeather.setAttribute('alt', desc);
+
         //Current Temperature
         let currentTemp = jsObject.main.temp.toFixed(1);
         let temp = document.createElement('h4');
         temp.textContent = `${currentTemp} \xB0F`;
         currentWeatherContainer.appendChild(temp);
 
-        //Weather Icon
-        const iconsrc = `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
-        document.createElement('img').setAttribute('src', iconsrc);
+        // //Wind Speed
+        // let windSpeed = jsObject.wind.speed;
+        // document.querySelector('#speed').textContent = windSpeed;
+
+        // Credits
+        let weatherWebsite = "https://openweathermap.org/"
+        let websiteCredit = document.createElement('p');
+        websiteCredit.textContent = weatherWebsite;
+        currentWeatherContainer.appendChild(websiteCredit);
         
-        //Weather Description
-        let desc = jsObject.weather[0].description;
-        desc = desc.split(' ').map(capitalize).join(' ');
-        
-        //Figure Caption
-        document.querySelector('figcaption').textContent = desc;
-        document.querySelector('#weather-icon').setAttribute('alt', desc);
 
-        //Wind Speed
-        let windSpeed = jsObject.wind.speed;
-        document.querySelector('#speed').textContent = windSpeed;
-
-         // Credits
-        const weatherWebsite = "https://openweathermap.org/"
-        document.querySelector('#credit').textContent = weatherWebsite;
-
-        computerWindChill(currentTemp, windSpeed);
+        // computerWindChill(currentTemp, windSpeed);
 
     
     });
