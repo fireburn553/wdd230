@@ -149,16 +149,15 @@ main.home section.hero div.hero-header{
 }
 
 main.home section.hero div.hero-btn button{
-    background: rgba(76, 78, 78,1);
-    color: var(--primary-color);
+    background: rgba(149, 151, 153, .9);
+    color: var(--secondary-color);
     border-radius: 5px;
-    box-shadow: 0px 2px 6px black;
     font-family: 'Montserrat', sans-serif;
 }
 
 main.home section.hero div.hero-btn button:hover, main.home section.hero div.hero-btn button:focus{
-    background: rgba(149, 151, 153, .9);
-    color: var(--tertiary-color);
+    background:rgba(76, 78, 78,1) ;
+    color: var(--primary-color);
 }
 
 main.home section.content{
@@ -280,7 +279,6 @@ form label.top input:required:valid {
     background: rgba(76, 78, 78,1);
     color: var(--primary-color);
     border-radius: 5px;
-    box-shadow: 0px 2px 6px black;
     font-family: 'Montserrat', sans-serif;
 }
 
