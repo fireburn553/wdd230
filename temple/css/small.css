@@ -248,7 +248,12 @@ main.home section.temple-card div.temple-card-body p{
 
 img.icon-pl{
     width: 100px;
+    background-color: var(--accent1-color);
+    border-radius: 50px;
+    margin-top: 10px;
 }
+
+
 
 
 /* FOOTER */
