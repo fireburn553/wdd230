@@ -9,17 +9,8 @@ function toggleMenu(){
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
-
 //Summary Temple
 const requestURL = 'https://fireburn553.github.io/wdd230/temple/json/temple.json';
-
-const Name = document.querySelector(".temple-card-header");
-const templeImg = document.querySelector(".temple-card-image");
-const templeDetails = document.querySelector(".temple-card-body");
-
-const Name2 = document.querySelector(".temple-card2-header");
-const templeImg2 = document.querySelector(".temple-card2-image");
-const templeDetails2 = document.querySelector(".temple-card2-body");
 fetch(requestURL)
     .then(function(response) {
         return response.json();
@@ -29,56 +20,20 @@ fetch(requestURL)
         
         let randomNum = Math.floor(Math.random()*directory.length);
         let anotherNum = randomNum+1;
-        insertTemple(directory[randomNum]);
+        insertTemple(directory[randomNum], "#temple-name", "#temple-image", "#address", "#telephone", "#email");
         if (anotherNum>3){
-            insertTemple2(directory[0]);
+            insertTemple(directory[0], "#temple-name2", "#temple-image2", "#address2", "#telephone2", "#email2");
         }else{
-            insertTemple2(directory[anotherNum]);
-            
+            insertTemple(directory[anotherNum], "#temple-name2", "#temple-image2", "#address2", "#telephone2", "#email2");
         }
-        
     })
 
-function insertTemple(temple){
-    let templeName = document.createElement('h3');
-    let templeImage = document.createElement('img');
-    let address = document.createElement('p');
-    let telephone = document.createElement('p');
-    let email = document.createElement('p');
+function insertTemple(temple, temple_name, temple_image, temple_addresses, temple_telephone, temple_email){
 
-    //Change the Content property of the h2 Element
-    templeName.textContent = `${temple.name}`;
-    templeImage.setAttribute('src', temple.image);
-    templeImage.setAttribute('alt', `${temple.name} Image`);
-    address.textContent = `Address: ${temple.addresses}`;
-    telephone.textContent = `Telephone: ${temple.phone}`;
-    email.textContent = `Email: ${temple.email}`;
-    //Add/append the div to the contents
-    Name.appendChild(templeName);
-    templeImg.appendChild(templeImage);
-    templeDetails.appendChild(address);
-    templeDetails.appendChild(telephone);
-    templeDetails.appendChild(email);
-}
-
-function insertTemple2(temple){
-    let templeName = document.createElement('h3');
-    let templeImage = document.createElement('img');
-    let address = document.createElement('p');
-    let telephone = document.createElement('p');
-    let email = document.createElement('p');
-
-    //Change the Content property of the h2 Element
-    templeName.textContent = `${temple.name}`;
-    templeImage.setAttribute('src', temple.image);
-    templeImage.setAttribute('alt', `${temple.name} Image`);
-    address.textContent = `Address: ${temple.addresses}`;
-    telephone.textContent = `Telephone: ${temple.phone}`;
-    email.textContent = `Email: ${temple.email}`;
-    //Add/append the div to the contents
-    Name2.appendChild(templeName);
-    templeImg2.appendChild(templeImage);
-    templeDetails2.appendChild(address);
-    templeDetails2.appendChild(telephone);
-    templeDetails2.appendChild(email);
+    document.querySelector(temple_name).textContent = `${temple.name}`;
+    document.querySelector(temple_image).setAttribute('src', temple.image);
+    document.querySelector(temple_image).setAttribute('alt', `${temple.name} Image`);
+    document.querySelector(temple_addresses).textContent = `Address: ${temple.addresses}`;
+    document.querySelector(temple_telephone).textContent = `Telephone: ${temple.phone}`;
+    document.querySelector(temple_email).textContent = `Email: ${temple.email}`;
 }

@@ -38,9 +38,47 @@ fetch(weatherAPIurl)
         let websiteCredit = document.createElement('p');
         websiteCredit.textContent = weatherWebsite;
         currentWeatherContainer.appendChild(websiteCredit);
+
+        /////////THREE DAY FORECAST /////////////////////
+        let day1 = getMonthDate(jsObject.daily[1].dt);
+        let day2 = getMonthDate(jsObject.daily[2].dt);
+        let day3 = getMonthDate(jsObject.daily[3].dt);
+
+        document.querySelector(".day1").textContent = day1;
+        document.querySelector(".day2").textContent = day2;
+        document.querySelector(".day3").textContent = day3;
+
+        addElementToForecast(jsObject, 1, ".icon-day1", ".description1", ".temp1");
+        addElementToForecast(jsObject, 2, ".icon-day2", ".description2", ".temp2");
+        addElementToForecast(jsObject, 3, ".icon-day3", ".description3", ".temp3");
     });
 
 
-    function capitalize(word) {
-        return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
-    }
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+}
+
+function getMonthDate(unix){
+
+    let date = new Date(unix* 1000);
+    let month = date.toLocaleString('default', {month: 'short'})
+    let d = date.getDate();
+
+    return `${month} ${d}`;
+}
+
+function addElementToForecast(weather, day, image_icon, caption, temperature){
+    const iconsrc = `https://openweathermap.org/img/wn/${weather.daily[day].weather[0].icon}@2x.png`;
+    document.querySelector(image_icon).setAttribute('src', iconsrc);
+
+    //Weather Description
+    let desc = weather.daily[day].weather[0].description;
+    desc = desc.split(' ').map(capitalize).join(' ');
+    document.querySelector(image_icon).setAttribute('alt', desc);
+    
+    document.querySelector(caption).textContent = desc;
+    
+    let temp = weather.daily[day].temp.day;
+    document.querySelector(temperature).textContent = `${temp} \xB0F`;
+
+}
