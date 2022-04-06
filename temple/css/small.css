@@ -255,6 +255,7 @@ img.icon-pl{
 .heading{
     text-align: center;
     background-color: var(--primary-color);
+    max-width: 700px;
 }
 
 div.grid-section, #temple-section, #reservation-section {
@@ -265,10 +266,6 @@ div.grid-section, #temple-section, #reservation-section {
 form#reservation-form{
     width: 100%;
 }
-
-
-
-
 
 /* FOOTER */
 footer{
