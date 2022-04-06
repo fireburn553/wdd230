@@ -185,7 +185,7 @@ main.home section.temple-card div.temple-card-image, .temple-card2-image, .card-
     overflow: hidden;
 }
 
-main.home section.temple-card, main.home section.temple-card2, .card-temple{
+main.home section.temple-card, main.home section.temple-card2, .card-temple, .reception-section{
     padding: 0;
 }
 
@@ -280,8 +280,29 @@ main.services-body section.service-content{
     max-width: 500px;
 }
 
-main.services-body{
+main.services-body, main.reception-body{
     margin: 10px;
+}
+
+.reception-section{
+    margin: 15px auto 0 auto;
+    background: var(--primary-color);
+    border: 1px solid var(--accent2-color);
+    box-shadow: 0 2px 5px 0 var(--tertiary-color);
+    width: 100%;
+}
+
+.reception-section .div-image>img{
+    width: 100%;
+    display: block;
+}
+
+.div-header, .div-content{
+    padding: 1rem;
+}
+
+.div-header, .div-content{
+    text-align: center;
 }
 
 /* FOOTER */
