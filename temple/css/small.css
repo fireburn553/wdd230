@@ -160,7 +160,7 @@ main.home section.hero div.hero-btn button:hover, main.home section.hero div.her
     color: var(--primary-color);
 }
 
-main.home section.content, .card-temple, #temple-section .temple-heading{
+main.home section.content, .card-temple, .heading{
     margin: 15px auto 0 auto;
     background: var(--primary-color);
     padding: 1rem;
@@ -252,14 +252,20 @@ img.icon-pl{
     margin-top: 10px;
 }
 
-#temple-section .temple-heading{
+.heading{
     text-align: center;
     background-color: var(--primary-color);
 }
 
-div.grid-section, #temple-section {
+div.grid-section, #temple-section, #reservation-section {
     padding: 10px;
 }
+
+
+form#reservation-form{
+    width: 100%;
+}
+
 
 
 
@@ -279,14 +285,14 @@ footer{
     width: 100%;
 }
 
-.footer-form>form label.top{
+.footer-form>form label.top, label.top{
     display: block;
     padding-top: 1rem;
     color: black;
     font-size: .9rem;
 }
 
-form label.top input,textarea{
+form label.top input, textarea, select{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -294,7 +300,7 @@ form label.top input,textarea{
     padding: .75rem;
     color: black;
     width: 100%;
-    max-width: 20rem;
+    max-width: 40rem;
     background-color: var(--primary-color);
 }
 
@@ -302,6 +308,9 @@ form{
     margin: 1.75rem auto;
     background-color: white;
     padding: 5px;
+}
+
+.footer-form>form{
     max-width: 300px;
 }
 
@@ -325,6 +334,15 @@ form label.top input:required:valid {
     color: var(--primary-color);
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+}
+
+input.middle{
+    display: block;
+}
+
+#reservation-form fieldset{
+    margin: 20px auto;
 }
 
 .footer-contact-info{

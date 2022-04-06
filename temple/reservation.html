@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Daeteños Chamber of Commerce</title>
+    <meta name="description" content="Temple Inn and Suite">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img class="logo" src="images/temple-and-inn.webp" alt="Temple Inn and Suite Website Logo">
+        </a>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="temple.html">TEMPLE</a></li>
+                <li class="active"><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="reception.html">RECEPTION</a></li>
+                <li><a href="service_missionary.html">SERVICE MISSIONARY</a></li>
+            </ul>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/fb.png" alt="Facebook Icon Logo">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/insta.png" alt="Instagram Icon Logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="reservation-body">
+       <section id="reservation-section" class="reservation">
+            <h2 class="heading">RESERVATION</h2>
+            <form id="reservation-form" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Customer Details</legend>
+                    <label class="top">Full Name*<input type="text" name="name" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label class="top">Phone<input type="tel" name="phone" placeholder="+63123456789"></label>
+                    <label class="top">Country<input type="country" name="country" placeholder="Philippines"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Booking Information</legend>
+                    <label class="top">Location*
+                        <select class="top" name="location" required="">
+                            <option class="" disabled="" selected="" value="">
+                            Select a Location
+                            </option>
+                            <option class="" value="Manila">
+                                Manila, Philippines
+                            </option>
+                            <option class="" value="Cebu">
+                                Cebu, Philippines
+                            </option>
+                            <option class="" value="Hawaii">
+                                Kona, Hawaii
+                            </option>
+                            <option class="" value="Peru">
+                                Arequipa, Peru
+                            </option>
+                        </select>
+                    </label>
+                    <label class="top">Check-In Date*<input type="date" name="check-in" required></label>
+                    <label class="top">Check-Out Date*<input type="date" name="check-out" required></label>
+                    <label class="top">Number of Rooms*<input type="number" name="roomNum" value="1" min="1" max="5" required></label>
+                    <label class="top">Type of Rooms*
+                        <select class="top" name="roomType" required>
+                            <option class="" disabled="" selected="" value="">
+                                Type of Room
+                            </option>
+                            <option class="" value="Single">
+                                    Single
+                            </option>
+                            <option class="" value="Double">
+                                    Double
+                            </option>
+                            <option class="" value="Triple">
+                                    Triple
+                            </option>
+                            <option class="" value="Quad">
+                                    Quad
+                            </option>
+                            <option class="" value="Queen">
+                                Queen
+                        </option>
+                        <option class="" value="Deluxe">
+                            Deluxe
+                    </option>
+                        </select>
+                    </label>
+                    <label class="top">Message
+                        <textarea
+                        name="businessDesc" 
+                        cols="40" 
+                        rows="5" 
+                        minlength="10" 
+                        maxlength="300" 
+                        placeholder="Enter text here (maximum 300 characters)"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit" class="submitBtn middle">
+            </form>
+
+       </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <a href="#">
+                    <img class="logo" src="images/temple-and-inn.webp" alt="Temple Inn and Suite Website Logo">
+                </a>
+            </div>
+            <div class="footer-form">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label class="top">Name*<input type="text" name="name" required></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com" required></label>
+                        <label class="top">Message
+                            <textarea
+                            name="businessDesc" 
+                            cols="40" 
+                            rows="5" 
+                            minlength="10" 
+                            maxlength="300" 
+                            placeholder="Enter text here (maximum 300 characters)"></textarea>
+                        </label>
+                        <input type="submit" value="Submit" class="submitBtn">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="footer-contact-info">
+                <p>4800 Montgomery Ln#300, Bethesda, MD 20814</p>
+                <p>+63 912 345 6789</p>
+                <p>email@email.com</p>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/fb2.png" alt="Facebook Icon Logo">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/insta2.png" alt="Instagram Icon Logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
