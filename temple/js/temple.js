@@ -31,9 +31,9 @@ fetch(requestURL)
         let closure = document.createElement('p');
         // Change the textContent property of the h2 element to contain the business name
         templeName.textContent = `${directory.name}`;
-        templeAddress.innerHTML = `<b>Address:</b>${directory.addresses}`;
+        templeAddress.innerHTML = `<b>Address:</b> ${directory.addresses}`;
         templeTelephone.innerHTML = `<b>Telephone:</b> ${directory.phone}`;
-        templeEmail.innerHTML = `<b>Email:</b>${directory.email}`;
+        templeEmail.innerHTML = `<b>Email:</b> ${directory.email}`;
         templeWebsite.innerHTML = `<b>Website:</b> ${directory.name}`;
         templeWebsite.setAttribute('href', directory.website);
         templeImage.setAttribute('src', directory.image);
