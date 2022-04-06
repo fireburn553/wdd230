@@ -1,3 +1,10 @@
+const d = new Date();
+const year = d.getFullYear();
+const fulldate = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"}).format(d);
+
+document.querySelector("#currentYear").textContent = year;
+document.querySelector("#pageLastUpdated").innerHTML = `Last update: ${document.lastModified}`;
 
 //Hamburger Button Menu
 function toggleMenu(){
