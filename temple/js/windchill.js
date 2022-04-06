@@ -29,7 +29,7 @@ fetch(weatherAPIurl)
 
         //Current Temperature
         let currentTemp = jsObject.current.temp.toFixed(1);
-        let temp = document.createElement('h4');
+        let temp = document.createElement('h2');
         temp.textContent = `${currentTemp} \xB0F`;
         currentWeatherContainer.appendChild(temp);
 
