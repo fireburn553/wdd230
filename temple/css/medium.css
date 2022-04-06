@@ -116,5 +116,16 @@
         grid-column: 2/3;
     }
 
+    .missionary-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        margin: auto;
+    }
+
+    .formss{
+        grid-column: 1/3;
+    }
+
 
 }

@@ -280,11 +280,11 @@ main.services-body section.service-content{
     max-width: 500px;
 }
 
-main.services-body, main.reception-body{
+main.services-body, main.reception-body, main.missionary-body{
     margin: 10px;
 }
 
-.reception-section{
+.reception-section, .basic, .delux{
     margin: 15px auto 0 auto;
     background: var(--primary-color);
     border: 1px solid var(--accent2-color);
@@ -292,17 +292,32 @@ main.services-body, main.reception-body{
     width: 100%;
 }
 
-.reception-section .div-image>img{
+.reception-section .div-image>img, .basic>img, .delux>img{
     width: 100%;
     display: block;
 }
 
-.div-header, .div-content{
+.div-header, .div-content, .missionary-section-content{
     padding: 1rem;
 }
 
 .div-header, .div-content{
     text-align: center;
+}
+
+.missonary-image>img{
+    width: 100%;
+    display: block;
+    
+}
+
+.missonary-image{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.basic, .delux{
+    max-width: 400px;
 }
 
 /* FOOTER */

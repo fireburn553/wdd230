@@ -70,6 +70,13 @@
         grid-column: 3/4;
     }
 
+    .missionary-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .formss{
+        grid-column: 3/4;
+    }
 
 
 }
