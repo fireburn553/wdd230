@@ -317,11 +317,11 @@ legend{
     font-size: 1.1rem;
 }
 
-form label.top input:required{
+form label.top input:required, select.top:required{
     border-left: red solid 3px;
 }
 
-form label.top input:required:valid {
+form label.top input:required:valid, select.top:required:valid {
     border-left: green solid 3px;
 }
 
