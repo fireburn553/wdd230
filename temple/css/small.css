@@ -258,13 +258,30 @@ img.icon-pl{
     max-width: 700px;
 }
 
-div.grid-section, #temple-section, #reservation-section {
+div.grid-section, #temple-section, #reservation-section, section.service-content {
     padding: 10px;
 }
 
 
 form#reservation-form{
     width: 100%;
+}
+
+main.services-body section.service-content{
+    margin: 15px auto 0 auto;
+    background: var(--primary-color);
+    padding: 1rem;
+    border: 1px solid var(--accent2-color);
+    box-shadow: 0 2px 5px 0 var(--tertiary-color);
+    width: 100%;
+}
+
+main.services-body section.service-content{
+    max-width: 500px;
+}
+
+main.services-body{
+    margin: 10px;
 }
 
 /* FOOTER */
