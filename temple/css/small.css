@@ -161,7 +161,6 @@ main.home section.hero div.hero-btn button:hover, main.home section.hero div.her
 }
 
 main.home section.content, .card-temple, #temple-section .temple-heading{
-    max-width: 350px;
     margin: 15px auto 0 auto;
     background: var(--primary-color);
     padding: 1rem;
@@ -256,6 +255,10 @@ img.icon-pl{
 #temple-section .temple-heading{
     text-align: center;
     background-color: var(--primary-color);
+}
+
+div.grid-section, #temple-section {
+    padding: 10px;
 }
 
 
