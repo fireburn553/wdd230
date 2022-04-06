@@ -182,7 +182,7 @@ main.home section.contact div.contact-wrapper h2{
     margin-bottom: 15px;
 }
 
-main.home section.temple-card div.temple-card-image, .temple-card2-image{
+main.home section.temple-card div.temple-card-image, .temple-card2-image, .card-temple{
     overflow: hidden;
 }
 
