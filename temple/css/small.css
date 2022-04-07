@@ -177,6 +177,12 @@ main.home section.contact div.contact-wrapper img{
     margin: auto;
 }
 
+.reserve-img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+}
 
 main.home section.contact div.contact-wrapper h2{
     margin-bottom: 15px;
@@ -267,6 +273,11 @@ div.grid-section, #temple-section, #reservation-section, section.service-content
 
 form#reservation-form{
     width: 100%;
+    padding: 0;
+}
+
+form#reservation-form>fieldset{
+    margin: 10px;
 }
 
 main.services-body section.service-content{
