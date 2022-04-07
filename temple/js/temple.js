@@ -70,14 +70,14 @@ fetch(requestURL)
         let btnContainer = document.createElement("div");
         let likeBtn = document.createElement("button");
         
-        likeBtn.textContent = "👍";
+        likeBtn.textContent = "👍 Like";
         likeBtn.addEventListener("click", () => {
             btnContainer.classList.toggle("like");
             localStorage.setItem(templeName.textContent, btnContainer.getAttribute('class'));
         });
-        btnContainer.setAttribute('class', localStorage.getItem(templeName));
+        btnContainer.setAttribute('class', localStorage.getItem(templeName.textContent));
+        
 
-        console.log(localStorage.getItem(templeName));
 
         btnContainer.appendChild(likeBtn)
 

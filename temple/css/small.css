@@ -420,3 +420,25 @@ input.middle{
     text-align: center;
     padding: 10px;
 }
+
+div.like>button{
+    background: rgba(76, 78, 78,1);
+    color: var(--primary-color);
+    border-radius: 2px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px 0 var(--tertiary-color);
+}
+
+div.null>button{
+    margin: 10px auto;
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 var(--tertiary-color);
+}
+
+div.null>button:hover{
+    background-color: var(--accent1-color);
+}
+
+
