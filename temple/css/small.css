@@ -507,3 +507,7 @@ div#arequipa.show {display: block;}
 
 #arequipa-btn.more #dropDown span:nth-child(1) {display: none;}
 #arequipa-btn.more #dropDown span:nth-child(2) {display: block;}
+
+.google-map{
+    color: #020100;
+}
