@@ -280,9 +280,14 @@ main.services-body section.service-content{
 
 main.services-body section.service-content{
     max-width: 500px;
+    padding: 0;
 }
 
-main.services-body, main.reception-body, main.missionary-body{
+.content-services{
+    padding: 20px;
+}
+
+main.services-body, main.reception-body, main.missionary-body, main.thankyou-body{
     margin: 10px;
 }
 
@@ -294,7 +299,7 @@ main.services-body, main.reception-body, main.missionary-body{
     width: 100%;
 }
 
-.reception-section .div-image>img, .basic>img, .delux>img{
+.reception-section .div-image>img, .basic>img, .delux>img, .service-img{
     width: 100%;
     display: block;
 }
@@ -307,13 +312,13 @@ main.services-body, main.reception-body, main.missionary-body{
     text-align: center;
 }
 
-.missonary-image>img{
+.missonary-image>img, .thank-you{
     width: 100%;
     display: block;
     
 }
 
-.missonary-image{
+.missonary-image, .thank-you{
     margin: 0 auto;
     max-width: 700px;
 }
