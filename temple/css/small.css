@@ -144,7 +144,7 @@ main.home section.hero div.hero-header{
     grid-column: 1/4;
     grid-row: 2/3;
     text-align: center;
-    font-size: .75rem;
+    font-size: 2vw;
     
 }
 
@@ -153,6 +153,7 @@ main.home section.hero div.hero-btn button{
     color: var(--secondary-color);
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
 }
 
 main.home section.hero div.hero-btn button:hover, main.home section.hero div.hero-btn button:focus{
@@ -246,7 +247,8 @@ main.home section.temple-card div.temple-card-body p{
 }
 
 img.icon-pl{
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     background-color: var(--accent1-color);
     border-radius: 50px;
     margin-top: 10px;
