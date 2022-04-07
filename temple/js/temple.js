@@ -71,11 +71,9 @@ fetch(requestURL)
         let classNameForShow = arrayofNameClass[0].toLocaleLowerCase();
         details.id = classNameForShow;
         dropDownAngle.id = `${classNameForShow}-btn`
-        console.log(details);
         
-        console.log(classNameForShow)
+
         dropDownAngle.addEventListener("click", () =>{
-            console.log("I CLICK");
             document.getElementById(`${classNameForShow}-btn`).classList.toggle("more");
             document.getElementById(classNameForShow).classList.toggle("show");
         })
