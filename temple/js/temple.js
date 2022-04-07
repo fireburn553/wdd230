@@ -58,7 +58,6 @@ fetch(requestURL)
         
         function createList(items, list){
             for (let x in items){
-                console.log(items[x]);
                 list.innerHTML += `<li> ${items[x]} </li>`;
                 details.appendChild(list);
             }
@@ -66,7 +65,22 @@ fetch(requestURL)
         }
         
         let dropDownAngle = document.createElement('p');
-        dropDownAngle.innerHTML= `<button id="dropDown">▼</button>`;
+        dropDownAngle.innerHTML= `<button id="dropDown"><span class="more">▼</span><span class="less">▲</span></button>`;
+        
+        let btnContainer = document.createElement("div");
+        let likeBtn = document.createElement("button");
+        
+        likeBtn.textContent = "👍";
+        likeBtn.addEventListener("click", () => {
+            btnContainer.classList.toggle("like");
+            localStorage.setItem(templeName.textContent, btnContainer.getAttribute('class'));
+        });
+        btnContainer.setAttribute('class', localStorage.getItem(templeName));
+
+        console.log(localStorage.getItem(templeName));
+
+        btnContainer.appendChild(likeBtn)
+
         seeMore.appendChild(dropDownAngle);
 
         // Add/append the section(card) with the h2 element
@@ -76,6 +90,7 @@ fetch(requestURL)
         card.appendChild(templeTelephone);
         card.appendChild(templeEmail);
         card.appendChild(templeWebsite);
+        card.appendChild(btnContainer);
         card.appendChild(seeMore);
         card.appendChild(details);
         // Add/append the existing HTML div with the cards class with the section(card)
