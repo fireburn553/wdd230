@@ -529,3 +529,7 @@ div#arequipa.show {display: block;}
 .google-map{
     color: #020100;
 }
+
+.submitButtonContainer{
+    padding-bottom: 10px;
+}
