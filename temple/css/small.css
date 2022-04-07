@@ -441,4 +441,69 @@ div.null>button:hover{
     background-color: var(--accent1-color);
 }
 
+.card-temple>a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
 
+.card-temple a>span{
+    color: blue;
+}
+.card-temple a>span:hover{
+    background: rgba(76, 78, 78,1);
+    color: var(--primary-color);
+}
+
+.card-temple>p{
+    margin: 5px 10px;
+    padding: 2px;
+    text-align: left;
+}
+
+.more-details>p, .more-details>ul, .show{
+    text-align: left;
+    margin: 1em;
+}
+
+#dropDown{
+    margin: 10px auto;
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 var(--tertiary-color);
+}
+
+
+div#manila {display: none;}
+div#cebu {display: none;}
+div#kona {display: none;}
+div#arequipa {display: none;}
+div#manila.show {display: block;}
+div#cebu.show {display: block;}
+div#kona.show {display: block;}
+div#arequipa.show {display: block;}
+
+#manila-btn #dropDown span:nth-child(1) {display: block;}
+#manila-btn #dropDown  span:nth-child(2) {display: none;}
+
+#manila-btn.more #dropDown span:nth-child(1) {display: none;}
+#manila-btn.more #dropDown span:nth-child(2) {display: block;}
+
+#cebu-btn #dropDown span:nth-child(1) {display: block;}
+#cebu-btn #dropDown  span:nth-child(2) {display: none;}
+
+#cebu-btn.more #dropDown span:nth-child(1) {display: none;}
+#cebu-btn.more #dropDown span:nth-child(2) {display: block;}
+
+#kona-btn #dropDown span:nth-child(1) {display: block;}
+#kona-btn #dropDown  span:nth-child(2) {display: none;}
+
+#kona-btn.more #dropDown span:nth-child(1) {display: none;}
+#kona-btn.more #dropDown span:nth-child(2) {display: block;}
+
+#arequipa-btn #dropDown span:nth-child(1) {display: block;}
+#arequipa-btn #dropDown  span:nth-child(2) {display: none;}
+
+#arequipa-btn.more #dropDown span:nth-child(1) {display: none;}
+#arequipa-btn.more #dropDown span:nth-child(2) {display: block;}

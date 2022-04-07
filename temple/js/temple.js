@@ -15,7 +15,6 @@ fetch(requestURL)
         let card = document.createElement('div');
         let seeMore = document.createElement('div');
         let details = document.createElement('div');
-        details.className = "more-details";
         card.className = "card-temple";
         let templeName = document.createElement('h3');
         let templeAddress = document.createElement('p');
@@ -34,8 +33,9 @@ fetch(requestURL)
         templeAddress.innerHTML = `<b>Address:</b> ${directory.addresses}`;
         templeTelephone.innerHTML = `<b>Telephone:</b> ${directory.phone}`;
         templeEmail.innerHTML = `<b>Email:</b> ${directory.email}`;
-        templeWebsite.innerHTML = `<b>Website:</b> ${directory.name}`;
+        templeWebsite.innerHTML = `${directory.name} <span class="gotoLink">External Link!</span>`;
         templeWebsite.setAttribute('href', directory.website);
+        templeWebsite.setAttribute('target', '_blank');
         templeImage.setAttribute('src', directory.image);
         templeImage.setAttribute('alt',  `${directory.name} picture`);
 
@@ -61,12 +61,27 @@ fetch(requestURL)
                 list.innerHTML += `<li> ${items[x]} </li>`;
                 details.appendChild(list);
             }
-
         }
+        let dropDownAngle = document.createElement('div');
+        dropDownAngle.innerHTML= `<button id="dropDown"><span>See more</span><span>Show less</span></button>`;
+
+
+        let nameOfClass = templeName.textContent;
+        let arrayofNameClass = nameOfClass.split(" ");
+        let classNameForShow = arrayofNameClass[0].toLocaleLowerCase();
+        details.id = classNameForShow;
+        dropDownAngle.id = `${classNameForShow}-btn`
+        console.log(details);
         
-        let dropDownAngle = document.createElement('p');
-        dropDownAngle.innerHTML= `<button id="dropDown"><span class="more">▼</span><span class="less">▲</span></button>`;
-        
+        console.log(classNameForShow)
+        dropDownAngle.addEventListener("click", () =>{
+            console.log("I CLICK");
+            document.getElementById(`${classNameForShow}-btn`).classList.toggle("more");
+            document.getElementById(classNameForShow).classList.toggle("show");
+        })
+
+
+
         let btnContainer = document.createElement("div");
         let likeBtn = document.createElement("button");
         
@@ -81,8 +96,6 @@ fetch(requestURL)
 
         btnContainer.appendChild(likeBtn)
 
-        seeMore.appendChild(dropDownAngle);
-
         // Add/append the section(card) with the h2 element
         card.appendChild(templeName);
         card.appendChild(templeImage);
@@ -91,7 +104,7 @@ fetch(requestURL)
         card.appendChild(templeEmail);
         card.appendChild(templeWebsite);
         card.appendChild(btnContainer);
-        card.appendChild(seeMore);
+        card.appendChild(dropDownAngle);
         card.appendChild(details);
         // Add/append the existing HTML div with the cards class with the section(card)
         document.querySelector(`#temple-section`).appendChild(card);
